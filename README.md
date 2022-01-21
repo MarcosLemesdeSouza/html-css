@@ -3,4 +3,4 @@
 
 Teste
 
-<a href="https://marcoslemesdesouza.github.io/html-css/exercicios/ex003-imagens-pastas-e-externas/index.html/"> Executar o exercício 003
+<a href="https://marcoslemesdesouza.github.io/html-css/exercicios/ex003-imagens-pastas-e-externas/index.html/">Executar o exercício 003</a>

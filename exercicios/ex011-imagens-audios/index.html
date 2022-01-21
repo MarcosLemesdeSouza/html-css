@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis a voluptate, iste molestiae totam mollitia voluptatibus fuga, porro nostrum ab error beatae quidem eius alias perspiciatis eos qui, deleniti unde.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eveniet distinctio velit modi voluptas natus quo impedit sed, doloribus inventore et molestiae blanditiis optio neque fuga sint rem voluptatibus reprehenderit!</p>
+
+    <audio src="midias/bigwig-cheers.mp3" controls autoplay></audio> <!--maneira simples-->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midias/bigwig-cheers.mp3" type="audio/mpeg">
+        <source src="midias/bigwig-cheers.ogg" type="audio/ogg">
+        <source src="midias/bigwig-cheers.wav" type="audio/wav">
+    </audio>
+</body>
+</html>
